@@ -9,7 +9,7 @@ advtrains.register_wagon("engine_electronic", {
 	mesh="advtrains_engine_electronic.b3d",
 	textures = {"advtrains_engine_electronic.png"},
 	drives_on={default=true},
-	max_speed=15,
+	max_speed=17,
 	seats = {
         {
 			name=S("Driver Stand (front)"),
@@ -53,7 +53,7 @@ advtrains.register_wagon("wagon_compartment", {
 	mesh="advtrains_wagon_compartment.b3d",
 	textures = {"advtrains_compartment.png"},
 	drives_on={default=true},
-	max_speed=10,
+	max_speed=15,
 	seats = {
 		{
 			name="1",
@@ -97,7 +97,7 @@ advtrains.register_wagon("wagon_compartment_restored", {
 	mesh="advtrains_wagon_compartment.b3d",
 	textures = {"advtrains_orient_express_restored.png"},
 	drives_on={default=true},
-	max_speed=10,
+	max_speed=17,
 	seats = {
 		{
 			name="1",
@@ -142,7 +142,7 @@ advtrains.register_wagon("wagon_sleep", {
 	mesh="advtrains_wagon_sleep.b3d",
 	textures = {"advtrains_sleep.png"},
 	drives_on={default=true},
-	max_speed=10,
+	max_speed=15,
 	seats = {
 		{
 			name="1",
